@@ -1,0 +1,17 @@
+name: 'Feature Request'
+description: 'Suggest a new feature.'
+labels: ['Feature Request', 'Needs Review']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests for the "Template" datapack!
+      
+  - type: textarea
+    id: feature-request-description
+    attributes:
+      label: What Feature?
+      description: 'What feature would you like to see in an upcoming update? Why would you want this feature?'
+      placeholder: 'Tell us more detailed about the feature...'
+    validations:
+      required: true

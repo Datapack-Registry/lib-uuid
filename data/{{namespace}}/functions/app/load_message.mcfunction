@@ -1,0 +1,3 @@
+tellraw @a [\
+  { "text": "Reloaded" }\
+]

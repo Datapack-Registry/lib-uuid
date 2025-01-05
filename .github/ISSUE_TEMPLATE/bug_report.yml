@@ -1,0 +1,51 @@
+name: 'Bug Report'
+description: 'File a bug report.'
+labels: ['Bug', 'Needs Review']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bug reports for the "Template" datapack!
+        
+  - type: checkboxes
+    id: checkboxes
+    attributes:
+      label: Validations
+      description: Before submitting the issue, please make sure you do the following
+      options:
+        - label: "Check that there isn't already an issue that reports the same bug to avoid creating a duplicate."
+          required: true
+          
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: 'Minecraft version'
+      description: 'What Minecraft version did you use when encountering the bug?'
+      placeholder: 'ex. 1.21'
+    validations:
+      required: true
+      
+  - type: input
+    id: version
+    attributes:
+      label: 'Datapack version'
+      description: 'What version of the datapack do you use?'
+      placeholder: 'ex. v1.0.0'
+    validations:
+      required: true
+      
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: What happened?
+      description: 'What did you expect to happen?'
+      placeholder: 'Tell us, what kind of bug you did encounter...'
+    validations:
+      required: true
+      
+  - type: textarea
+    id: error-message
+    attributes:
+      label: 'Log output (ex. errors)'
+      description: 'Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.'
+      render: text

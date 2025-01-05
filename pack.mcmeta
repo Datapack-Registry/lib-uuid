@@ -1,0 +1,38 @@
+{
+  "pack": {
+    "pack_format": 26,
+    "description": [
+      {
+        "text": "\"{{datapack_name}}\" (namespace)"
+      },
+      "\n",
+      {
+        "text": "{{datapack_description}}",
+        "color": "#aaaaaa"
+      },
+      "\n\n",
+      {
+        "text": "Version "
+      },
+      {
+        "text": "{{datapack_version}}",
+        "color": "#55ff55"
+      },
+      {
+        "text": " for Minecraft "
+      },
+      {
+        "text": "{{minecraft_version}}",
+        "color": "#55ff55"
+      },
+      "\n",
+      {
+        "text": "by "
+      },
+      {
+        "text": "{{datapack_author}}",
+        "color": "#ffff55"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:repeating_command_block"
+    },
+    "title": "Datapack-Registry",
+    "description": {
+      "text": "All Datapacks detected and installed by the Datapack-Registry.",
+      "color": "gray"
+    },
+    "background": "minecraft:textures/block/black_stained_glass.png",
+    "frame": "challenge",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

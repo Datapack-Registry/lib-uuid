@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "{{namespace}}:datapack/add",
+        "{{namespace}}:scoreboard/add",
+        "{{namespace}}:app/setup"
+    ]
+}
