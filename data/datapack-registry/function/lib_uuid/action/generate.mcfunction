@@ -4,4 +4,4 @@
 #
 # @public
 
-function lib:uuid/storage/generate
+function datapack-registry:lib_uuid/storage/generate
