@@ -1,6 +1,9 @@
 #> lib
 #
 # Gets the hex values of the UUID.
+#
+# @reads {storage} lib:uuid *.constants.hex_characters
+# @writes {storage} lib:uuid *.generate.hex_values
 
 $data modify storage lib:uuid *.generate.hex_values.0 set \
   from storage lib:uuid *.constants.hex_characters[$(0)]

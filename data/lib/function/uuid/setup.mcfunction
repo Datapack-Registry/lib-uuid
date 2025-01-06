@@ -1,6 +1,9 @@
 #> lib
 #
 # Sets up the storage and scoreboard for UUID generation.
+#
+# @writes {storage} lib:uuid *.constants.hex_characters
+# @writes {scoreboard} lib.uuid.main $constant#256
 
 data remove storage lib:uuid *
 
